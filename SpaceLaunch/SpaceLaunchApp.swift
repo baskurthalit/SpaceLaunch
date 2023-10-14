@@ -11,7 +11,7 @@ import SwiftUI
 struct SpaceLaunchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppContent()
         }
     }
 }

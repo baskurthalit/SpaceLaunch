@@ -10,6 +10,7 @@ import Foundation
 
 enum SpaceEndpoint : Endpoint, EndpointMakers {
     case latestLaunch
+    case nextLaunch
     
     var path: String { pathMaker() }
     
@@ -23,6 +24,7 @@ enum SpaceEndpoint : Endpoint, EndpointMakers {
     ) -> String {
         switch self {
         case .latestLaunch: return "v4/launches/latest"
+        case .nextLaunch: return "v4/launches/next"
         }
     }
     
@@ -33,7 +35,10 @@ enum SpaceEndpoint : Endpoint, EndpointMakers {
     
     func requestTypeMaker(
     ) -> RequestType {
-        return .GET
+        switch self {
+        case .latestLaunch: return .GET
+        case .nextLaunch: return .GET
+        }
     }
     
     func headerMaker(
