@@ -25,9 +25,9 @@ struct RocketLaunchModel: Codable, Identifiable {
     let launchpad: String?
     let flightNumber: Int?
     let name: String?
-    let dateUTC: String?
-    let dateUnix: Int?
-    let dateLocal: String?
+    let date_utc: String?
+    let date_unix: Int?
+    let date_local: String?
     let datePrecision: String?
     let upcoming: Bool?
     let cores: [CoreModel]?

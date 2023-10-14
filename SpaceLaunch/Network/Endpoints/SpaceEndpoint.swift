@@ -11,6 +11,7 @@ import Foundation
 enum SpaceEndpoint : Endpoint, EndpointMakers {
     case latestLaunch
     case nextLaunch
+    case upcomingLaunchs
     
     var path: String { pathMaker() }
     
@@ -25,6 +26,7 @@ enum SpaceEndpoint : Endpoint, EndpointMakers {
         switch self {
         case .latestLaunch: return "v4/launches/latest"
         case .nextLaunch: return "v4/launches/next"
+        case .upcomingLaunchs: return "v4/launches/upcoming"
         }
     }
     
@@ -38,6 +40,7 @@ enum SpaceEndpoint : Endpoint, EndpointMakers {
         switch self {
         case .latestLaunch: return .GET
         case .nextLaunch: return .GET
+        case .upcomingLaunchs: return .GET
         }
     }
     

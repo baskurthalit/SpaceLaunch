@@ -13,19 +13,35 @@ struct MainLaunchView: View {
     
     var body: some View {
         GeometryReader { proxy in
-            ScrollView {
-                HStack(spacing: 10) {
-                    ForEach(viewModel.launchNews) { launchNew in
-                        LaunchNewView(launchNewModel: launchNew)
-                            .frame(maxWidth: .infinity)
-                            .frame(height: proxy.size.width * 3/4)
-                            .background(.ultraThinMaterial)
-                            .cornerRadius(10)
+            ScrollView(showsIndicators:false) {
+                Section {
+                    HStack(spacing: 10) {
+                        ForEach(viewModel.launchNews) { launchNew in
+                            LaunchNewView(launchNewModel: launchNew)
+                                .frame(maxWidth: .infinity)
+                                .frame(height: proxy.size.width * 3/4)
+                                .background(.ultraThinMaterial)
+                                .cornerRadius(10)
+                        }
                     }
-                }
+                }.frame(height: proxy.size.width * 3/4)
+                
+                Section("Upcoming Launches") {
+                    if $viewModel.upcomingLaunches.isEmpty {
+                        ProgressView()
+                            .onAppear{ viewModel.fetchUpcoming() }
+                    } else {
+                        VStack(spacing: 10) {
+                            ForEach(viewModel.upcomingLaunches) { upcomingLaunch in
+                                UpcomingCellView(rocketLaunch: upcomingLaunch)
+                            }
+                        }
+                    }
+
+                }.frame(maxWidth: .infinity)
             }
         }
-        .padding()
+        .padding([.leading,.trailing,.top])
             .onAppear {
                 viewModel.fetchLaunchNews()
             }
