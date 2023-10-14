@@ -17,13 +17,22 @@ struct LaunchDetailView: View {
             ScrollView {
                 VStack {
                     LaunchCoverView(imageURL: launchNew.rocketLaunch?.links?.patch?.small)
+                        .frame(maxHeight: 250)
                     Section {
-                        Text("LAUNCH DETAILS")
-                            .font(.largeTitle)
+                        let rocketName : String = launchNew.rocketLaunch?.name ?? ""
+                        Text("\(rocketName) DETAILS")
+                            .font(.title)
                             .hAlign(.leading)
                             .fontWeight(.bold)
-                        Text(launchNew.rocketLaunch?.details ?? "NO-DETAIL-INFO")
-                            .hAlign(.leading)
+                        if let detailsText = launchNew.rocketLaunch?.details {
+                            Text(detailsText)
+                                .hAlign(.leading)
+                        } else {
+                            Text("Nothing found..")
+                            Image(systemName: "waveform.and.magnifyingglass")
+                                .resizable()
+                                .frame(width: 70,height: 50)
+                        }
                     }.padding()
                 }.frame(maxWidth: .infinity)
             }
