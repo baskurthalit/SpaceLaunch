@@ -27,6 +27,13 @@ final class MainLaunchViewModel : ObservableObject {
         }
     }
     
+    func pullToRefresh() {
+        upcomingLaunches.removeAll()
+        launchNews.removeAll()
+        fetchUpcoming()
+        fetchLaunchNews()
+    }
+    
     func fetchUpcoming() {
         fetchUpcomingLaunches()
     }
@@ -60,7 +67,7 @@ final class MainLaunchViewModel : ObservableObject {
         SpaceAPI.request(endpointType: SpaceEndpoint.upcomingLaunchs) { (result: SpaceRequestResult<[RocketLaunchModel]>) in
             switch result {
             case .success(let result):
-                self.upcomingLaunches = result
+                inMainAsync { self.upcomingLaunches = result }
             case .error(let error): break
             }
             dispatchGroup?.leave()

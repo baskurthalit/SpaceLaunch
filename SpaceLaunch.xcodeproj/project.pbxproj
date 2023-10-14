@@ -24,6 +24,7 @@
 		1B0C62F52ADAB607000A3C6B /* RequestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C62F42ADAB607000A3C6B /* RequestResult.swift */; };
 		1B7E7D332ADB31A80012DA23 /* UpcomingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E7D322ADB31A80012DA23 /* UpcomingCellView.swift */; };
 		1B7E7D352ADB33740012DA23 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E7D342ADB33740012DA23 /* String+Ext.swift */; };
+		1B7E7D372ADB368C0012DA23 /* MainThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E7D362ADB368C0012DA23 /* MainThreadHelper.swift */; };
 		1BB7B64E2ADAE5B5005991D7 /* RocketLaunchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7B64D2ADAE5B5005991D7 /* RocketLaunchModel.swift */; };
 		1BB7B6502ADAE5D1005991D7 /* LinksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7B64F2ADAE5D1005991D7 /* LinksModel.swift */; };
 		1BB7B6522ADAE5DD005991D7 /* PatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7B6512ADAE5DD005991D7 /* PatchModel.swift */; };
@@ -78,6 +79,7 @@
 		1B0C62F42ADAB607000A3C6B /* RequestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestResult.swift; sourceTree = "<group>"; };
 		1B7E7D322ADB31A80012DA23 /* UpcomingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingCellView.swift; sourceTree = "<group>"; };
 		1B7E7D342ADB33740012DA23 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		1B7E7D362ADB368C0012DA23 /* MainThreadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainThreadHelper.swift; sourceTree = "<group>"; };
 		1BB7B64D2ADAE5B5005991D7 /* RocketLaunchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketLaunchModel.swift; sourceTree = "<group>"; };
 		1BB7B64F2ADAE5D1005991D7 /* LinksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksModel.swift; sourceTree = "<group>"; };
 		1BB7B6512ADAE5DD005991D7 /* PatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchModel.swift; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 				1B0C62D82ADAB0EA000A3C6B /* Animation */,
 				1B0C62DC2ADAB147000A3C6B /* Base */,
 				1B0C62D62ADAB0B2000A3C6B /* Extensions */,
+				1B7E7D362ADB368C0012DA23 /* MainThreadHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -472,6 +475,7 @@
 				1BB7B6562ADAE60C005991D7 /* RedditModel.swift in Sources */,
 				1B0C62EA2ADAB350000A3C6B /* Endpoint.swift in Sources */,
 				1B0C62AA2ADAAEEC000A3C6B /* SpaceLaunchApp.swift in Sources */,
+				1B7E7D372ADB368C0012DA23 /* MainThreadHelper.swift in Sources */,
 				1BB7B6602ADAFB6D005991D7 /* LaunchNewsModel.swift in Sources */,
 				1BB7B6522ADAE5DD005991D7 /* PatchModel.swift in Sources */,
 				1B0C62EB2ADAB350000A3C6B /* EndpointManager.swift in Sources */,

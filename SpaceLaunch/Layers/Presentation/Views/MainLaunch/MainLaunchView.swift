@@ -40,11 +40,12 @@ struct MainLaunchView: View {
 
                 }.frame(maxWidth: .infinity)
             }
+            .refreshable {
+                viewModel.pullToRefresh()
+            }
         }
         .padding([.leading,.trailing,.top])
-            .onAppear {
-                viewModel.fetchLaunchNews()
-            }
+            .onAppear { viewModel.fetchLaunchNews() }
         
     }
 }
