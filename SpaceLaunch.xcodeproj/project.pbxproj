@@ -22,6 +22,32 @@
 		1B0C62F12ADAB4E1000A3C6B /* SpaceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C62F02ADAB4E1000A3C6B /* SpaceEndpoint.swift */; };
 		1B0C62F32ADAB4F9000A3C6B /* EndpointMakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C62F22ADAB4F9000A3C6B /* EndpointMakers.swift */; };
 		1B0C62F52ADAB607000A3C6B /* RequestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C62F42ADAB607000A3C6B /* RequestResult.swift */; };
+		1B5292062ADBE382000569E9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5292052ADBE382000569E9 /* WidgetKit.framework */; };
+		1B5292082ADBE382000569E9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5292072ADBE382000569E9 /* SwiftUI.framework */; };
+		1B52920B2ADBE382000569E9 /* SpaceLaunchWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B52920A2ADBE382000569E9 /* SpaceLaunchWidgetBundle.swift */; };
+		1B52920D2ADBE382000569E9 /* SpaceLaunchWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B52920C2ADBE382000569E9 /* SpaceLaunchWidget.swift */; };
+		1B5292102ADBE383000569E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B52920F2ADBE383000569E9 /* Assets.xcassets */; };
+		1B5292122ADBE383000569E9 /* SpaceLaunchWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1B52920E2ADBE382000569E9 /* SpaceLaunchWidget.intentdefinition */; };
+		1B5292132ADBE383000569E9 /* SpaceLaunchWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1B52920E2ADBE382000569E9 /* SpaceLaunchWidget.intentdefinition */; };
+		1B5292162ADBE383000569E9 /* SpaceLaunchWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1B5292032ADBE382000569E9 /* SpaceLaunchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B52921D2ADBEC75000569E9 /* SpaceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C62DD2ADAB19C000A3C6B /* SpaceAPI.swift */; };
+		1B52921E2ADBEC78000569E9 /* SpaceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C62F02ADAB4E1000A3C6B /* SpaceEndpoint.swift */; };
+		1B52921F2ADBEC7A000569E9 /* RequestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C62F42ADAB607000A3C6B /* RequestResult.swift */; };
+		1B5292202ADBEC7D000569E9 /* EndpointMakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C62F22ADAB4F9000A3C6B /* EndpointMakers.swift */; };
+		1B5292212ADBEC7F000569E9 /* EndpointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C62E92ADAB350000A3C6B /* EndpointType.swift */; };
+		1B5292222ADBEC82000569E9 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C62E72ADAB350000A3C6B /* Endpoint.swift */; };
+		1B5292232ADBEC85000569E9 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C62ED2ADAB38D000A3C6B /* RequestType.swift */; };
+		1B5292242ADBEC88000569E9 /* EndpointManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C62E82ADAB350000A3C6B /* EndpointManager.swift */; };
+		1B5292252ADBEF9B000569E9 /* RocketLaunchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7B64D2ADAE5B5005991D7 /* RocketLaunchModel.swift */; };
+		1B5292262ADBEF9F000569E9 /* LinksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7B64F2ADAE5D1005991D7 /* LinksModel.swift */; };
+		1B5292272ADBEFA1000569E9 /* PatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7B6512ADAE5DD005991D7 /* PatchModel.swift */; };
+		1B5292282ADBEFA3000569E9 /* FairingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7B6532ADAE5F8005991D7 /* FairingsModel.swift */; };
+		1B5292292ADBEFA5000569E9 /* RedditModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7B6552ADAE60C005991D7 /* RedditModel.swift */; };
+		1B52922A2ADBEFA7000569E9 /* FlickrModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7B6572ADAE618005991D7 /* FlickrModel.swift */; };
+		1B52922B2ADBEFAA000569E9 /* CoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7B6592ADAE633005991D7 /* CoreModel.swift */; };
+		1B52922C2ADBEFAD000569E9 /* LaunchNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7B65F2ADAFB6D005991D7 /* LaunchNewsModel.swift */; };
+		1B52922D2ADBF563000569E9 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E7D342ADB33740012DA23 /* String+Ext.swift */; };
+		1B52922E2ADBF5BA000569E9 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7B65D2ADAF909005991D7 /* View+Ext.swift */; };
 		1B7E7D332ADB31A80012DA23 /* UpcomingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E7D322ADB31A80012DA23 /* UpcomingCellView.swift */; };
 		1B7E7D352ADB33740012DA23 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E7D342ADB33740012DA23 /* String+Ext.swift */; };
 		1B7E7D372ADB368C0012DA23 /* MainThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E7D362ADB368C0012DA23 /* MainThreadHelper.swift */; };
@@ -56,7 +82,28 @@
 			remoteGlobalIDString = 1B0C62A52ADAAEEC000A3C6B;
 			remoteInfo = SpaceLaunch;
 		};
+		1B5292142ADBE383000569E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B0C629E2ADAAEEC000A3C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B5292022ADBE382000569E9;
+			remoteInfo = SpaceLaunchWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B52921A2ADBE383000569E9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1B5292162ADBE383000569E9 /* SpaceLaunchWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1B0C62A62ADAAEEC000A3C6B /* SpaceLaunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceLaunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +124,14 @@
 		1B0C62F02ADAB4E1000A3C6B /* SpaceEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceEndpoint.swift; sourceTree = "<group>"; };
 		1B0C62F22ADAB4F9000A3C6B /* EndpointMakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointMakers.swift; sourceTree = "<group>"; };
 		1B0C62F42ADAB607000A3C6B /* RequestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestResult.swift; sourceTree = "<group>"; };
+		1B5292032ADBE382000569E9 /* SpaceLaunchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SpaceLaunchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5292052ADBE382000569E9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		1B5292072ADBE382000569E9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1B52920A2ADBE382000569E9 /* SpaceLaunchWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLaunchWidgetBundle.swift; sourceTree = "<group>"; };
+		1B52920C2ADBE382000569E9 /* SpaceLaunchWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLaunchWidget.swift; sourceTree = "<group>"; };
+		1B52920E2ADBE382000569E9 /* SpaceLaunchWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SpaceLaunchWidget.intentdefinition; sourceTree = "<group>"; };
+		1B52920F2ADBE383000569E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B5292112ADBE383000569E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B7E7D322ADB31A80012DA23 /* UpcomingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingCellView.swift; sourceTree = "<group>"; };
 		1B7E7D342ADB33740012DA23 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		1B7E7D362ADB368C0012DA23 /* MainThreadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainThreadHelper.swift; sourceTree = "<group>"; };
@@ -118,6 +173,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1B5292002ADBE382000569E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5292082ADBE382000569E9 /* SwiftUI.framework in Frameworks */,
+				1B5292062ADBE382000569E9 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -125,8 +189,10 @@
 			isa = PBXGroup;
 			children = (
 				1B0C62A82ADAAEEC000A3C6B /* SpaceLaunch */,
+				1B5292092ADBE382000569E9 /* SpaceLaunchWidget */,
 				1B0C62B92ADAAEEE000A3C6B /* SpaceLaunchTests */,
 				1B0C62C32ADAAEEE000A3C6B /* SpaceLaunchUITests */,
+				1B5292042ADBE382000569E9 /* Frameworks */,
 				1B0C62A72ADAAEEC000A3C6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -137,6 +203,7 @@
 				1B0C62A62ADAAEEC000A3C6B /* SpaceLaunch.app */,
 				1B0C62B62ADAAEEE000A3C6B /* SpaceLaunchTests.xctest */,
 				1B0C62C02ADAAEEE000A3C6B /* SpaceLaunchUITests.xctest */,
+				1B5292032ADBE382000569E9 /* SpaceLaunchWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -293,6 +360,27 @@
 			path = EndpointHelpers;
 			sourceTree = "<group>";
 		};
+		1B5292042ADBE382000569E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B5292052ADBE382000569E9 /* WidgetKit.framework */,
+				1B5292072ADBE382000569E9 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B5292092ADBE382000569E9 /* SpaceLaunchWidget */ = {
+			isa = PBXGroup;
+			children = (
+				1B52920A2ADBE382000569E9 /* SpaceLaunchWidgetBundle.swift */,
+				1B52920C2ADBE382000569E9 /* SpaceLaunchWidget.swift */,
+				1B52920E2ADBE382000569E9 /* SpaceLaunchWidget.intentdefinition */,
+				1B52920F2ADBE383000569E9 /* Assets.xcassets */,
+				1B5292112ADBE383000569E9 /* Info.plist */,
+			);
+			path = SpaceLaunchWidget;
+			sourceTree = "<group>";
+		};
 		1BB7B6612ADAFD06005991D7 /* MainLaunch */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,10 +420,12 @@
 				1B0C62A22ADAAEEC000A3C6B /* Sources */,
 				1B0C62A32ADAAEEC000A3C6B /* Frameworks */,
 				1B0C62A42ADAAEEC000A3C6B /* Resources */,
+				1B52921A2ADBE383000569E9 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1B5292152ADBE383000569E9 /* PBXTargetDependency */,
 			);
 			name = SpaceLaunch;
 			productName = SpaceLaunch;
@@ -378,6 +468,23 @@
 			productReference = 1B0C62C02ADAAEEE000A3C6B /* SpaceLaunchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		1B5292022ADBE382000569E9 /* SpaceLaunchWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5292172ADBE383000569E9 /* Build configuration list for PBXNativeTarget "SpaceLaunchWidgetExtension" */;
+			buildPhases = (
+				1B5291FF2ADBE382000569E9 /* Sources */,
+				1B5292002ADBE382000569E9 /* Frameworks */,
+				1B5292012ADBE382000569E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceLaunchWidgetExtension;
+			productName = SpaceLaunchWidgetExtension;
+			productReference = 1B5292032ADBE382000569E9 /* SpaceLaunchWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -399,6 +506,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = 1B0C62A52ADAAEEC000A3C6B;
 					};
+					1B5292022ADBE382000569E9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 1B0C62A12ADAAEEC000A3C6B /* Build configuration list for PBXProject "SpaceLaunch" */;
@@ -417,6 +527,7 @@
 				1B0C62A52ADAAEEC000A3C6B /* SpaceLaunch */,
 				1B0C62B52ADAAEEE000A3C6B /* SpaceLaunchTests */,
 				1B0C62BF2ADAAEEE000A3C6B /* SpaceLaunchUITests */,
+				1B5292022ADBE382000569E9 /* SpaceLaunchWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -442,6 +553,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5292012ADBE382000569E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5292102ADBE383000569E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +596,7 @@
 				1B0C62AA2ADAAEEC000A3C6B /* SpaceLaunchApp.swift in Sources */,
 				1B7E7D372ADB368C0012DA23 /* MainThreadHelper.swift in Sources */,
 				1BB7B6602ADAFB6D005991D7 /* LaunchNewsModel.swift in Sources */,
+				1B5292132ADBE383000569E9 /* SpaceLaunchWidget.intentdefinition in Sources */,
 				1BB7B6522ADAE5DD005991D7 /* PatchModel.swift in Sources */,
 				1B0C62EB2ADAB350000A3C6B /* EndpointManager.swift in Sources */,
 			);
@@ -499,6 +619,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1B5291FF2ADBE382000569E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5292262ADBEF9F000569E9 /* LinksModel.swift in Sources */,
+				1B5292212ADBEC7F000569E9 /* EndpointType.swift in Sources */,
+				1B52922B2ADBEFAA000569E9 /* CoreModel.swift in Sources */,
+				1B5292222ADBEC82000569E9 /* Endpoint.swift in Sources */,
+				1B52921F2ADBEC7A000569E9 /* RequestResult.swift in Sources */,
+				1B5292202ADBEC7D000569E9 /* EndpointMakers.swift in Sources */,
+				1B5292122ADBE383000569E9 /* SpaceLaunchWidget.intentdefinition in Sources */,
+				1B52922C2ADBEFAD000569E9 /* LaunchNewsModel.swift in Sources */,
+				1B52920B2ADBE382000569E9 /* SpaceLaunchWidgetBundle.swift in Sources */,
+				1B5292252ADBEF9B000569E9 /* RocketLaunchModel.swift in Sources */,
+				1B52922A2ADBEFA7000569E9 /* FlickrModel.swift in Sources */,
+				1B52920D2ADBE382000569E9 /* SpaceLaunchWidget.swift in Sources */,
+				1B5292292ADBEFA5000569E9 /* RedditModel.swift in Sources */,
+				1B52921D2ADBEC75000569E9 /* SpaceAPI.swift in Sources */,
+				1B52922E2ADBF5BA000569E9 /* View+Ext.swift in Sources */,
+				1B5292242ADBEC88000569E9 /* EndpointManager.swift in Sources */,
+				1B52921E2ADBEC78000569E9 /* SpaceEndpoint.swift in Sources */,
+				1B5292282ADBEFA3000569E9 /* FairingsModel.swift in Sources */,
+				1B5292272ADBEFA1000569E9 /* PatchModel.swift in Sources */,
+				1B52922D2ADBF563000569E9 /* String+Ext.swift in Sources */,
+				1B5292232ADBEC85000569E9 /* RequestType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -511,6 +659,11 @@
 			isa = PBXTargetDependency;
 			target = 1B0C62A52ADAAEEC000A3C6B /* SpaceLaunch */;
 			targetProxy = 1B0C62C12ADAAEEE000A3C6B /* PBXContainerItemProxy */;
+		};
+		1B5292152ADBE383000569E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B5292022ADBE382000569E9 /* SpaceLaunchWidgetExtension */;
+			targetProxy = 1B5292142ADBE383000569E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -632,6 +785,7 @@
 		1B0C62CB2ADAAEEE000A3C6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -664,6 +818,7 @@
 		1B0C62CC2ADAAEEE000A3C6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -769,6 +924,60 @@
 			};
 			name = Release;
 		};
+		1B5292182ADBE383000569E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8354Y6X4AR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpaceLaunchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpaceLaunchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bseyha.SpaceLaunch.SpaceLaunchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B5292192ADBE383000569E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8354Y6X4AR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpaceLaunchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpaceLaunchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bseyha.SpaceLaunch.SpaceLaunchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -804,6 +1013,15 @@
 			buildConfigurations = (
 				1B0C62D12ADAAEEE000A3C6B /* Debug */,
 				1B0C62D22ADAAEEE000A3C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5292172ADBE383000569E9 /* Build configuration list for PBXNativeTarget "SpaceLaunchWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5292182ADBE383000569E9 /* Debug */,
+				1B5292192ADBE383000569E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

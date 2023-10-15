@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "space-backround.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

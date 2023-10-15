@@ -19,7 +19,7 @@ struct MainLaunchView: View {
                         ForEach(viewModel.launchNews) { launchNew in
                             LaunchNewView(launchNewModel: launchNew)
                                 .frame(maxWidth: .infinity)
-                                .frame(height: proxy.size.width * 3/4)
+//                                .frame(height: proxy.size.width * 3/4)
                                 .background(.ultraThinMaterial)
                                 .cornerRadius(10)
                         }

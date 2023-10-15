@@ -17,7 +17,7 @@ struct LaunchDetailView: View {
             ScrollView {
                 VStack {
                     LaunchCoverView(imageURL: launchNew.rocketLaunch?.links?.patch?.small)
-                        .frame(maxHeight: 250)
+                        .frame(height: 250)
                     Section {
                         let rocketName : String = launchNew.rocketLaunch?.name ?? ""
                         Text("\(rocketName) DETAILS")
