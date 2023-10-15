@@ -26,7 +26,7 @@ struct LaunchNewView : View {
         }
         .onTapGesture { isLaunchDetailPresented.toggle() }
         .fullScreenCover(isPresented: $isLaunchDetailPresented) {
-            LaunchDetailView(launchNew: $launchNewModel)
+            LaunchDetailView(launchNew: launchNewModel.rocketLaunch)
         }
     }
 }

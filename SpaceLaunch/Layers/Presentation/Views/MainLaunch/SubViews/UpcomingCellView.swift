@@ -11,17 +11,22 @@ struct UpcomingCellView: View {
     let rocketLaunch: RocketLaunchModel
     
     var body: some View {
-        HStack(alignment: .bottom, spacing: 0.0) {
-            HStack(spacing: 16.0) {
-                imageSection
-                titleSection
+        NavigationLink {
+            LaunchDetailView(launchNew: rocketLaunch)
+        } label: {
+            HStack(alignment: .bottom, spacing: 0.0) {
+                HStack(spacing: 16.0) {
+                    imageSection
+                    titleSection
+                }
             }
+            .padding(12)
+            .background(RoundedRectangle(cornerRadius: 0)
+                .fill(.ultraThinMaterial)
+            )
+            .cornerRadius(15)
         }
-        .padding(12)
-        .background(RoundedRectangle(cornerRadius: 0)
-            .fill(.ultraThinMaterial)
-        )
-        .cornerRadius(15)
+        .buttonStyle(.plain)
     }
     
     private var imageSection: some View {

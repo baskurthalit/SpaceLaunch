@@ -10,25 +10,25 @@ import SwiftUI
 struct LaunchDetailView: View {
     @Environment(\.presentationMode) var presentationMode
     
-    @Binding var launchNew: LaunchNewsModel
+    var launchNew: RocketLaunchModel?
     
     var body: some View {
         VStack {
             ScrollView {
                 VStack {
-                    LaunchCoverView(imageURL: launchNew.rocketLaunch?.links?.patch?.small)
+                    LaunchCoverView(imageURL: launchNew?.links?.patch?.small)
                         .frame(height: 250)
                     Section {
-                        let rocketName : String = launchNew.rocketLaunch?.name ?? ""
+                        let rocketName : String = launchNew?.name ?? ""
                         Text("\(rocketName) DETAILS")
                             .font(.title)
                             .hAlign(.leading)
                             .fontWeight(.bold)
-                        if let detailsText = launchNew.rocketLaunch?.details {
+                        if let detailsText = launchNew?.details {
                             Text(detailsText)
                                 .hAlign(.leading)
                         } else {
-                            Text("Nothing found..")
+                            Text("Not detail info found..")
                             Image(systemName: "waveform.and.magnifyingglass")
                                 .resizable()
                                 .frame(width: 70,height: 50)
@@ -39,7 +39,9 @@ struct LaunchDetailView: View {
             .overlay(alignment: .topLeading) {
                 backButton
             }
-        }.clipped()
+        }
+        .clipped()
+        .navigationBarBackButtonHidden(true)
         
     }
     
